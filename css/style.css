@@ -131,3 +131,13 @@ header {
     font-weight: 600;
     color: #757575;
 }
+
+/* BANNER-2 */
+.ms_banner-2 {
+    position: relative;
+}
+
+.ms_banner-2 > img {
+    height: 670px;
+    object-fit: cover;
+}

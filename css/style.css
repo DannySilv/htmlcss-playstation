@@ -1,0 +1,57 @@
+/* COMMON */
+
+html {
+    font-size: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+/* HEADER */
+header {
+    position: fixed;
+    background-color: white;
+    height: 106px;
+    width: 100%;
+}
+
+.ms_header-wrapper-t {
+    height: 30px;
+    width: 100%;
+    background-color: black;
+}
+
+.ms_header-img {
+    height: 30px;
+    width: 50%;
+    margin: 0 0;
+}
+
+.ms_header-img img {
+    width: 70px;
+}
+
+.ms_header-wrapper-b {
+    height: 76px;
+    width: 100%;
+}
+
+.ms_nav-img {
+    text-align: end;
+    width: 40px;
+}
+
+.ms_nav-img img {
+    width: 25px;
+}
+
+.ms_btn {
+    padding: 0.2em 0.8em;
+    border-radius: 50px;
+    font-size: 0.7em;
+}

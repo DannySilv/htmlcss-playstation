@@ -4,20 +4,60 @@ html {
     font-size: 100%;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
 img {
     width: 100%;
 }
 
-body {
-    background-color: aquamarine;
+.ms_mb-5 {
+    margin-bottom: 5em!important;
+}
+
+.ms_container {
+    width: 92%;
+    margin: 0 auto;
+}
+
+.ms_title {
+    font-size: 2.3em;
+    font-weight: 600;
+}
+
+.ms_btn {
+    padding: 0.3em 0.7em;
+    border-radius: 50px;
+    font-size: 1em;
+}
+
+.ms_active-img {
+    border: 2px solid #2485d5;
+    border-radius: 0.8rem;
+    padding: 2px;
+}
+
+.ms_active-border {
+    border-bottom: 3px solid #2485d5;
+    border-radius: 4px;
+    padding-bottom: 2.5em;
+}
+
+/* BOOTSTRAP-CHANGES */
+.rounded {
+    border-radius: 0.8rem!important;
 }
 
 /* HEADER */
 header {
     position: fixed;
+    top: 0;
     background-color: white;
     height: 106px;
     width: 100%;
+    z-index: 1;
 }
 
 .ms_header-wrapper-t {
@@ -41,6 +81,10 @@ header {
     width: 100%;
 }
 
+.ms_header-wrapper-b .dropdown-toggle::after {
+    display: none;
+}
+
 .ms_nav-img {
     text-align: end;
     width: 40px;
@@ -50,8 +94,40 @@ header {
     width: 25px;
 }
 
-.ms_btn {
-    padding: 0.2em 0.7em;
-    border-radius: 50px;
+/* MAIN */
+
+/* BANNER */
+.ms_banner {
+    padding-top: 106px;
+    position: relative;
+}
+
+.ms_banner > img {
+    height: 470px;
+    object-fit: cover;
+}
+
+.ms_card {
+    position: absolute;
+    width: 290px;
+    bottom: 10%;
+    left: 5.2%;
+}
+
+.ms_banner-img {
+    width: 70%;
+}
+
+/* PLAYSTATION-ACCESSORIES */
+.ms_top-title {
     font-size: 0.8em;
+    color: #2485d5;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.ms_subtitle {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #757575;
 }

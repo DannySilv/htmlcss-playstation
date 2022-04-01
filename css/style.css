@@ -35,7 +35,7 @@ img {
 
 .ms_active-img {
     border: 2px solid #2485d5;
-    border-radius: 0.8rem;
+    border-radius: 2rem;
     padding: 2px;
 }
 
@@ -47,7 +47,12 @@ img {
 
 /* BOOTSTRAP-CHANGES */
 .rounded {
-    border-radius: 0.8rem!important;
+    border-radius: 2rem!important;
+}
+
+.card {
+    background-color: inherit;
+    border: none;
 }
 
 /* HEADER */
@@ -140,4 +145,10 @@ header {
 .ms_banner-2 > img {
     height: 670px;
     object-fit: cover;
+}
+
+/* NEW-RELEASES */
+.ms_wrapper {
+    width: 100%;
+    background-color: #1f1f1f;
 }

@@ -11,6 +11,12 @@ body {
 
 img {
     width: 100%;
+    vertical-align: top;
+}
+
+.blue {
+    color: #2485d5;
+    font-weight: 600;
 }
 
 .ms_mb-5 {
@@ -148,7 +154,36 @@ header {
 }
 
 /* NEW-RELEASES */
-.ms_wrapper {
+.ms_wrapper-nw {
     width: 100%;
     background-color: #1f1f1f;
+}
+
+/* PLAYSTATION-PLUS */
+.ms_wrapper-pp {
+    width: 100%;
+    background-color: #bebcbb;
+}
+
+.ms_pp-logo {
+    width: 50%;
+    padding: 0 1rem;
+    padding-top: 1rem;
+}
+
+.ms_pp-img {
+    height: 100%;
+}
+
+.ms_subtitle-xs {
+    font-size: 0.9em;
+    font-weight: 600;
+    color: #757575;
+}
+
+@media screen and (min-width: 768px) {
+    .ms_pp-logo {
+        width: 80%;
+    }
+    
 }

@@ -187,3 +187,9 @@ header {
     }
     
 }
+
+/* PLAYSTATION-NOW */
+.ms_wrapper-pn {
+    width: 100%;
+    background-color: #161c3b;
+}

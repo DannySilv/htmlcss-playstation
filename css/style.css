@@ -14,9 +14,20 @@ img {
     vertical-align: top;
 }
 
+ul {
+    list-style: none;
+}
+
+li {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 .blue {
     color: #2485d5;
-    font-weight: 600;
 }
 
 .ms_mb-5 {
@@ -37,6 +48,7 @@ img {
     padding: 0.3em 0.7em;
     border-radius: 50px;
     font-size: 1em;
+    font-weight: 600;
 }
 
 .ms_active-img {
@@ -84,7 +96,8 @@ header {
 }
 
 .ms_header-img img {
-    width: 70px;
+    width: 75px;
+    vertical-align: middle;
 }
 
 .ms_header-wrapper-b {
@@ -177,7 +190,7 @@ header {
 
 .ms_subtitle-xs {
     font-size: 0.9em;
-    font-weight: 600;
+    font-weight: 500;
     color: #757575;
 }
 
@@ -192,4 +205,36 @@ header {
 .ms_wrapper-pn {
     width: 100%;
     background-color: #161c3b;
+}
+
+/* FOOTER */
+footer {
+    background-color: #00439c;
+    width: 100%;
+}
+
+.ms_footer-img {
+    width: 80px;
+}
+
+footer i {
+    padding-right: 15px;
+}
+
+footer li {
+    font-size: 0.9em;
+    font-weight: 600;
+    color: white;
+}
+
+footer  a {
+    color: inherit;
+}
+
+.ms_footer-logo {
+    width: 120px;
+}
+
+footer span {
+    text-decoration: underline;
 }

@@ -73,6 +73,27 @@ a {
     border: none;
 }
 
+/* HOVER */
+.ms_btn:hover {
+    outline: 2px solid;
+    outline-color: #2485d5;
+    outline-offset: 0.1em;
+}
+
+.ms_hover-banner:hover {
+    transform: translateY(-10px);
+    transition-duration: 1s;
+}
+
+.ms_hover-img:hover {
+    opacity: 100!important;
+    border-bottom: 3px solid #2485d5;
+    border-radius: 4px;
+    padding-bottom: 2.5em;
+    transform: translateY(-10px);
+    transition-duration: 0.5s;
+}
+
 /* HEADER */
 header {
     position: fixed;

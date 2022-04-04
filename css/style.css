@@ -34,6 +34,10 @@ a {
     margin-bottom: 5em!important;
 }
 
+.ms_pr-1-5 {
+    padding-right: 1.5%;
+}
+
 .ms_container {
     width: 92%;
     margin: 0 auto;
@@ -73,11 +77,28 @@ a {
     border: none;
 }
 
+.navbar-brand {
+    padding-left: 1.5%;
+    margin-right: 0;
+}
+
+.navbar-collapse {
+    background-color: white;
+}
+
 /* HOVER */
 .ms_btn:hover {
     outline: 2px solid;
     outline-color: #2485d5;
     outline-offset: 0.1em;
+}
+
+.ms_hover-header:hover .ms_chevron-a{
+    display: none;
+}
+
+.ms_hover-header:hover .ms_chevron-b {
+    display: inline;
 }
 
 .ms_hover-banner:hover {
@@ -139,8 +160,24 @@ header {
     width: 25px;
 }
 
-/* MAIN */
+.ms_chevron {
+    width: 10px;
+    vertical-align: middle;
+}
 
+.ms_chevron-b {
+    display: none;
+}
+
+/* DROPDOWN */
+.ms_dropdown-container {
+    width: 100%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    background-color: white;
+}
+
+/* MAIN */
 /* BANNER */
 .ms_banner {
     padding-top: 106px;

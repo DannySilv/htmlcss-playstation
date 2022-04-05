@@ -82,6 +82,10 @@ a {
     margin-right: 0;
 }
 
+.dropdown {
+    position: static!important;
+}
+
 .navbar-collapse {
     background-color: white;
 }
@@ -170,11 +174,16 @@ header {
 }
 
 /* DROPDOWN */
-.ms_dropdown-container {
-    width: 100%;
-    padding-left: 1.5%;
-    padding-right: 1.5%;
-    background-color: white;
+.dropdown-item {
+    width: unset;
+}
+
+.dropdown-item > img  {
+    width: 60%;
+}
+
+.dropdown-menu li {
+    display: inline-block;
 }
 
 /* MAIN */
